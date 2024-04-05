@@ -1,0 +1,133 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+#topo{
+    background: url(img/farmtopo.png) no-repeat;
+    height: 80px;
+}
+
+#menuvertical ul li{
+    float: left;
+    padding-right: 20px;
+    padding-left: 20px;
+    font-size: 17px;
+    color: black;
+    font-family: garamond;
+    
+}
+
+#menuvertical ul li:hover{
+    float: left;
+    padding-right: 20px;
+    font-size: 17px;
+    color: black;
+    background: rgb(209, 203, 203);
+}
+
+
+#menuvertical ul{
+    list-style: none;
+}
+
+#menuvertical{
+    margin-left: 770px;
+    padding-top: 35px;
+}
+
+#menuvertical ul li a{
+    text-decoration: none;
+}
+
+#banner{
+    background: url(img/topo-nova.png) no-repeat;
+    height: 500px;
+}
+
+#principal{
+    height: 700px;
+}
+
+#img1{
+    background: url(img/img2-nova.jpg) no-repeat;
+    width: 500px;
+    float: left;
+    height: 700px;
+    margin: 50px 0 0 100px;
+}
+
+#img1:hover{
+    background: url(img/img-nova1.jpg) no-repeat;
+}
+
+#img2{
+    width: 500px;
+    height: 700px;
+    float: left;
+    margin: 50px 0 0 110px;
+    background: url(img/img-nova3.jpg);
+}
+
+#img2:hover{
+    background: url(img/img-nova4.jpg) no-repeat;
+}
+
+#img3{
+    background: url(img/img-nova5.jpg) no-repeat;
+    width: 500px;
+    float: right;
+    height: 700px;
+    margin: 50px 100px 0 0;
+}
+
+#img3:hover{
+    background: url(img/img-nova6.jpg) no-repeat;
+}
+
+#img4{
+    background: url(img/img-nova8.jpg) no-repeat;
+    width: 500px;
+    float: right;
+    height: 700px;
+    margin: 50px 100px 0 0;
+}
+
+#img4:hover{
+    background: url(img/img-nova7.jpg) no-repeat;
+}
+
+#img5{
+    background: url(img/img-nova10.jpg) no-repeat;
+    width: 500px;
+    float: right;
+    height: 700px;
+    margin: 50px 100px 0 0;
+}
+
+#img5:hover{
+    background: url(img/img-nova9.jpg) no-repeat;
+}
+
+#img6{
+    background: url(img/img-nova11.jpg) no-repeat;
+    width: 500px;
+    float: right;
+    height: 700px;
+    margin: 50px 100px 0 0;
+}
+
+#img6:hover{
+    background: url(img/img-nova12.jpg) no-repeat;
+}
+
+#rodape h4{
+    font-family: garamond;
+    text-align: center;
+    padding: 20px 0 20px 0;
+   
+}
+
+#container{
+    height: 2000px;
+}
