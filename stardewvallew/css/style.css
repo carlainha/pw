@@ -2,13 +2,26 @@
     background: #198754;
     color: white;
 }
+
 #botao{
     background: rgb(165, 226, 165);
 }
 
+#botao:hover{
+    background: rgb(147, 201, 147);
+}
+
+#botao2{
+    background: rgb(255, 217, 145);
+}
+
+#botao2:hover{
+    background: rgb(218, 184, 123);
+}
+
 .caixa{
     padding: 60px 0;
-    border: 1px solid #e5e5e5;
+    border: 1px solid #dfdbc3;
 }
 
 body{
