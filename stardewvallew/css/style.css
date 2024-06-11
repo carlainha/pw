@@ -28,7 +28,7 @@ body{
     background: #fefae0;
 }
 
-.rodape{
-    padding: 20px 0;
-    border: 1px solid #dfdbc3;
+footer p a{
+    margin: 5px 15px;
+    text-decoration: none;
 }
