@@ -1,9 +1,30 @@
-import Post from "./Post"
+import {Post} from "./Post"
 
-function App() {
+export function App() {
   return (
-    <Post/>
+    <div>
+      <Post 
+        author="Machado de Assis" 
+        coment="Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+        Accusamus dolorum pariatur fuga rem voluptate, hic voluptatem corporis 
+        distinctio aspernatur aperiam accusantium est totam aliquam similique illo 
+        asperiores molestiae, iure nam!"/>
+      
+      <Post 
+        author="Castro Alves" 
+        coment="Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+        Accusamus dolorum pariatur fuga rem voluptate, hic voluptatem corporis 
+        distinctio aspernatur aperiam accusantium est totam aliquam similique illo 
+        asperiores molestiae, iure nam!"/>
+
+      <Post 
+        author="Padre Antonio Vieira" 
+        coment="Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+        Accusamus dolorum pariatur fuga rem voluptate, hic voluptatem corporis 
+        distinctio aspernatur aperiam accusantium est totam aliquam similique illo 
+        asperiores molestiae, iure nam!"/>
+      
+    </div>
   )
 }
 
-export default App
